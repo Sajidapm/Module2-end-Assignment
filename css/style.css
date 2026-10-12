@@ -1,0 +1,184 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #94bcf0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+nav{
+    margin-right: 30px;
+}
+#logo
+{
+ text-decoration: none;   
+ color: black;
+}
+.largescreen{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 10px;
+    
+}
+.list-items a
+{
+    text-decoration: none;
+    gap: 20px;
+}
+.dropdown a{
+display: flex;
+border: 1px solid rgb(236, 232, 232);
+flex-direction: column;
+text-decoration: none;
+}
+.dropdown .menu-items{
+    display: none;
+    width: 100px;
+    border: 1px solid rgb(216, 215, 215);
+}
+.dropdown:hover .menu-items
+{display: flex;
+flex-direction: column;}
+#hero
+{
+    background-image: url("../images/Road%20to%20Snow-Capped%20Mountains.png");
+        background-size:cover;
+    background-position: center;
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#hero button
+{
+    background-color: rgb(104, 104, 241);
+    border-radius: 3px;
+}
+#features
+{
+    background: rgb(248, 247, 247);
+    padding: 10px;
+}
+#features h2{
+text-align: center;
+padding-top: 100px;
+}
+.container
+{
+    margin: 160px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    
+}
+.features-card{
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+    background: white;
+    border: .5px solid rgb(255, 251, 251);
+    border-color: rgb(207, 210, 212);
+    border-radius: 10px;
+    box-shadow: white;
+
+}
+
+.features-card img
+{
+width: 200px;
+height: 210px;
+border-radius: 5px ;
+}
+.features-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+#destinations
+{
+    width: 100%;
+    background: rgb(248, 247, 247);
+
+}
+#destinations h2{
+    text-align: center;
+}
+.destination-card
+{
+    
+    width: 18rem;
+    height: 20rem;
+}
+.destination-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10vw;
+    gap: 30px;
+    text-align: center;
+
+}
+.input
+{
+    width: 400px;
+    border: 1px solid rgb(213, 218, 218);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#button
+{
+    width: 200px;
+    padding: 10px;
+    background: #5f99e4;
+    border: 1px;
+    border-radius: 10px;
+    margin: 30px;
+    }
+    footer
+    {
+        background-color: antiquewhite;
+    }
+
+    @media(max-width:1024px)
+    {
+         .largescreen
+         {
+            display: none;
+         }
+         }
+ @media(min-width:1024px)
+ {
+    .dropdown {
+        display: none;
+    }
+ }
+   @media(max-width:678px)
+    {
+         .large-screen
+         {
+            display: none;
+         }
+         }  @media(min-width:679px)
+    {
+         .mobile
+         {
+            display: none;
+         }
+         }

@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin: 2px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+input{
+width: 300px;
+padding: 5px;
+margin: 10px;
+
+}
+button{
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #245cd4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+#alignbutton{
+    display: flex;
+    justify-content: center;
+}
+.error
+{
+    color:red;
+    font-size: small;
+}

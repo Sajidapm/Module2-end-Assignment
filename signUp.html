@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <p>Welcome to our tourist landing page</p>
+
+   <form  id="signUp-form" action="">
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                    <small  id="fullNameError"></small>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <small  id="emailError"></small>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    <small  id="phoneError"></small>
+
+    <label for="location">Location/City:</label>
+    <input type="text" id="location" name="Location" placeholder="Enter your Location" required>
+                    <small  id="locationError"></small>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                    <small  id="passwordError"></small>
+
+    <label for="confirmpassword">Confirm Password:</label>
+    <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Enter Conform Password" required>
+                    <small  id="confirmpasswordError"></small>
+
+    <div id="alignbutton">
+    <button type="submit">Sign Up</button>
+    </div>
+
+   </form>
+   </div>
+   <script src="./signUp.js"></script>
+</body>
+</html>
