@@ -212,3 +212,12 @@ border-radius: 5px ;
         overflow-x: hidden;
     }
 }
+#destinations h2{
+    text-align: start;
+    padding: 10px;
+}
+#destinations .container{
+    padding: 0 10px;
+    margin: 0;
+    
+}
