@@ -182,3 +182,33 @@ border-radius: 5px ;
             display: none;
          }
          }
+         /* Mobile responsive features */
+@media (max-width: 576px) {
+    #features .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0 10px;
+        margin: 0 auto;
+        gap: 15px;
+    }
+
+    .features-card {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .features-card img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
